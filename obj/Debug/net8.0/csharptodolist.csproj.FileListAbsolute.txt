@@ -1,0 +1,14 @@
+/home/alexander/programming/projects/csharptodolist/bin/Debug/net8.0/csharptodolist
+/home/alexander/programming/projects/csharptodolist/bin/Debug/net8.0/csharptodolist.deps.json
+/home/alexander/programming/projects/csharptodolist/bin/Debug/net8.0/csharptodolist.runtimeconfig.json
+/home/alexander/programming/projects/csharptodolist/bin/Debug/net8.0/csharptodolist.dll
+/home/alexander/programming/projects/csharptodolist/bin/Debug/net8.0/csharptodolist.pdb
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.AssemblyInfoInputs.cache
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.AssemblyInfo.cs
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.csproj.CoreCompileInputs.cache
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.dll
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/refint/csharptodolist.dll
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.pdb
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/csharptodolist.genruntimeconfig.cache
+/home/alexander/programming/projects/csharptodolist/obj/Debug/net8.0/ref/csharptodolist.dll

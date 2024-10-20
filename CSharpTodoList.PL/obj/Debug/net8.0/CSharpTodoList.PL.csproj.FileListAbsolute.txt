@@ -1,0 +1,12 @@
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/bin/Debug/net8.0/CSharpTodoList.PL.deps.json
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/bin/Debug/net8.0/CSharpTodoList.PL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/bin/Debug/net8.0/CSharpTodoList.PL.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.AssemblyInfoInputs.cache
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.AssemblyInfo.cs
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.csproj.CoreCompileInputs.cache
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.sourcelink.json
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/refint/CSharpTodoList.PL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/CSharpTodoList.PL.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.PL/obj/Debug/net8.0/ref/CSharpTodoList.PL.dll

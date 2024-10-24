@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharptodolist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec1a6ac089dbb971191286b09aa10f6317bc1882")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharptodolist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharptodolist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

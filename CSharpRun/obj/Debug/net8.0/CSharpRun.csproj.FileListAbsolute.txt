@@ -1,0 +1,15 @@
+/home/alexander/programming/projects/csharptodolist/CSharpRun/bin/Debug/net8.0/CSharpRun
+/home/alexander/programming/projects/csharptodolist/CSharpRun/bin/Debug/net8.0/CSharpRun.deps.json
+/home/alexander/programming/projects/csharptodolist/CSharpRun/bin/Debug/net8.0/CSharpRun.runtimeconfig.json
+/home/alexander/programming/projects/csharptodolist/CSharpRun/bin/Debug/net8.0/CSharpRun.dll
+/home/alexander/programming/projects/csharptodolist/CSharpRun/bin/Debug/net8.0/CSharpRun.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.AssemblyInfoInputs.cache
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.AssemblyInfo.cs
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.csproj.CoreCompileInputs.cache
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.sourcelink.json
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.dll
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/refint/CSharpRun.dll
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/CSharpRun.genruntimeconfig.cache
+/home/alexander/programming/projects/csharptodolist/CSharpRun/obj/Debug/net8.0/ref/CSharpRun.dll

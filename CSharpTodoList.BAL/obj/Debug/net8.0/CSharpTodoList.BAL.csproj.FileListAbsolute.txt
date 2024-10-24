@@ -1,0 +1,16 @@
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.BAL.deps.json
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.BAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.BAL.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.AssemblyInfoInputs.cache
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.AssemblyInfo.cs
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.csproj.CoreCompileInputs.cache
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.sourcelink.json
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/refint/CSharpTodoList.BAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/ref/CSharpTodoList.BAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.csproj.AssemblyReference.cache
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.DAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.DAL.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.csproj.CopyComplete

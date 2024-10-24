@@ -1,4 +1,5 @@
-﻿using CSharpTodoList.DAL;
+﻿using System.Security.Cryptography.X509Certificates;
+using CSharpTodoList.DAL;
 
 
 namespace CSharpTodoList.BAL;
@@ -11,9 +12,19 @@ public class Operator
         FileManager.WriteFile(text, writePath);
     }
 
-    public static void DeleteProject()
+    public static void DeleteProject(int id, string? path = null)
     {
+        var readPath = path ?? Directory.GetCurrentDirectory() + "listprojects.txt";
+        
+        if (readPath is null) 
+        {
+            Console.WriteLine($"Project with id={id} does not exist.");
+            return;
+        }
 
+        string[] projectlist = FileManager.ReadFile(readPath).Split('\n');
+
+                
     }
 
     public static void CreateTask()

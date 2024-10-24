@@ -10,3 +10,7 @@
 /home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/refint/CSharpTodoList.BAL.dll
 /home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.pdb
 /home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/ref/CSharpTodoList.BAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.csproj.AssemblyReference.cache
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.DAL.dll
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/bin/Debug/net8.0/CSharpTodoList.DAL.pdb
+/home/alexander/programming/projects/csharptodolist/CSharpTodoList.BAL/obj/Debug/net8.0/CSharpTodoList.BAL.csproj.CopyComplete

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpTodoList.BAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7a57d4a2751596fae473a49e7f6c6daae98718d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20b9b8381061fa6680e133d3989afcffd0e46be8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpTodoList.BAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpTodoList.BAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

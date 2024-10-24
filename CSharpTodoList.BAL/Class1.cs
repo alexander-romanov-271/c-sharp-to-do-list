@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using CSharpTodoList.DAL;
+﻿using CSharpTodoList.DAL;
 
 
 namespace CSharpTodoList.BAL;
@@ -9,7 +8,7 @@ public class Operator
     public static void CreateProject(string text, string? path = null)
     {
         var writePath = path ?? Directory.GetCurrentDirectory() + "listprojects.txt";
-        FileManager.WriteFile(text, writePath);
+        //FileManager.WriteFile(text, writePath);
     }
 
     public static void DeleteProject(int id, string? path = null)
@@ -22,7 +21,7 @@ public class Operator
             return;
         }
 
-        string[] projectlist = FileManager.ReadFile(readPath).Split('\n');
+        //string[] projectlist = FileManager.ReadFile(readPath).Split('\n');
 
                 
     }

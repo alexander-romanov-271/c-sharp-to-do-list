@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace CSharpTodoList.DAL.Contexts;
 
-class FileContext : IDisposable
+/*class FileContext : IDisposable
 {
     protected StreamWriter? Conn {get; set;}
     public static StreamWriter Open(string? path = null, bool append = true)
@@ -18,4 +18,4 @@ class FileContext : IDisposable
     {
         ;
     }
-}
+}*/

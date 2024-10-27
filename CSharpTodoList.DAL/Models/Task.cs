@@ -2,7 +2,7 @@ using CSharpTodoList.DAL.Models;
 
 namespace CSharpTodoList.DAL.Models
 {
-    public class Task
+    public class Task : BaseModel
     {
         public int Id { get; set; }
         public string? Name {get; set;}

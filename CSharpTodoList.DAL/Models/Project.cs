@@ -1,6 +1,6 @@
 namespace CSharpTodoList.DAL.Models
 {
-    public class ProjectModel
+    public class ProjectModel : BaseModel
     {
         public int Id { get; set; }
         public string? Name {get; set;}

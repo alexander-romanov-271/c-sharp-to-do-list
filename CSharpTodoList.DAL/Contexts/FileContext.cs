@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.ComponentModel;
+using System.Data;
 using System.Reflection;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
@@ -7,17 +8,15 @@ using Microsoft.VisualBasic;
 
 namespace CSharpTodoList.DAL.Contexts;
 
-class FileContext(string? path = null, bool append = true) : IDisposable
+class FileContext : StreamWriter
 {
-    public string? Path { get; set; } = path;
-    public bool Append { get; set; } = append;
-    public StreamWriter? Conn {get; set;}
+    public FileContext(string path, bool append = true): base(path, append) {}
 
-    public void Open()
+    public void Create(string message)
     {
-        string workingPath = Path ?? Directory.GetCurrentDirectory() + "/projectslist.txt";
-        Conn = new StreamWriter(workingPath, Append);
+        WriteLine(message);
     }
+
 
     public bool CheckConn()
     {

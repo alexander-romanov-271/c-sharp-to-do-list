@@ -4,7 +4,7 @@ using CSharpTodoList.DAL.Contexts;
 
 namespace CSharpTodoList.DAL.Repositories
 {
-    interface IRepository<T> : IDisposable
+    public interface IRepository<T> : IDisposable
     where T : class
     {
         IEnumerable<T> GetItemList();
@@ -15,7 +15,7 @@ namespace CSharpTodoList.DAL.Repositories
     }
 
 
-    class ProjectRepository : IRepository<ProjectModel>
+    public class ProjectRepository : IRepository<ProjectModel>
     {
         private FileContext _projectContext; 
         public ProjectRepository()

@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="../CSharpTodoList.BAL/CSharpTodoList.BLL.csproj" />
     <ProjectReference Include="..\CSharpTodoList.DAL\CSharpTodoList.DAL.csproj" />
-    <ProjectReference Include="..\CSharpTodoList.BAL\CSharpTodoList.BAL.csproj" />
     <ProjectReference Include="..\CSharpTodoList.PL\CSharpTodoList.PL.csproj" />
   </ItemGroup>
 

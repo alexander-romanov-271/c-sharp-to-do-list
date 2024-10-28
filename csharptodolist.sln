@@ -5,11 +5,13 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTodoList.DAL", "CSharpTodoList.DAL\CSharpTodoList.DAL.csproj", "{DCF431E9-C2B1-4190-830D-9EA878178565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTodoList.BAL", "CSharpTodoList.BAL\CSharpTodoList.BAL.csproj", "{72D0FE98-37A9-4A47-97DD-76A23B5B475D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTodoList.BLL", "CSharpTodoList.BAL\CSharpTodoList.BLL.csproj", "{72D0FE98-37A9-4A47-97DD-76A23B5B475D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTodoList.PL", "CSharpTodoList.PL\CSharpTodoList.PL.csproj", "{7FDE3E1C-E034-4C7B-A46E-FF8AB66E1D4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRun", "CSharpRun\CSharpRun.csproj", "{A8843A28-C9B5-4EA8-AE93-C7E8C2F9CE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{12323214-F5B4-488B-890E-6F5536E18FF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A8843A28-C9B5-4EA8-AE93-C7E8C2F9CE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8843A28-C9B5-4EA8-AE93-C7E8C2F9CE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8843A28-C9B5-4EA8-AE93-C7E8C2F9CE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12323214-F5B4-488B-890E-6F5536E18FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12323214-F5B4-488B-890E-6F5536E18FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12323214-F5B4-488B-890E-6F5536E18FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12323214-F5B4-488B-890E-6F5536E18FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

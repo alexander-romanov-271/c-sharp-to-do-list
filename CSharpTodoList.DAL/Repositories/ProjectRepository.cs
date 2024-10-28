@@ -2,6 +2,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using CSharpTodoList.DAL.Models;
+using Utils;
 
 namespace CSharpTodoList.DAL.Repositories;
 
@@ -15,7 +16,12 @@ public class ProjectRepository : IRepository<ProjectModel>
     }
     public void Create(ProjectModel item)
     {
-        _content.Add(item);
+        if (item == null)
+        {
+            Console.WriteLine("item is null");
+            return;
+        }
+        _content.Add(Utilities.TypeToString(item) ?? string.Empty);
     }
 
     public void Delete(int id)
@@ -30,16 +36,22 @@ public class ProjectRepository : IRepository<ProjectModel>
 
     public ProjectModel GetItem(int id)
     {
-        ProjectModel item = _content[id - 1];
+        ProjectModel item = new ProjectModel(Utilities.StringToDict(_content[id - 1]));
+        return item;
     }
 
     public IEnumerable<ProjectModel> GetItemList()
     {
-        _content;
+        List<ProjectModel> l = [];
+        foreach (string s in _content)
+        {
+            l.Add(new ProjectModel(Utilities.StringToDict(s)));
+        }
+        return l;
     }
 
     public void Update(ProjectModel item)
     {
-        item = 
+        throw new NotImplementedException();
     }
 }

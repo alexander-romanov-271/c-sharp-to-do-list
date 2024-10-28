@@ -1,6 +1,4 @@
-/*using CSharpTodoList.DAL.Models;
-using CSharpTodoList.DAL.Contexts;
-
+using CSharpTodoList.DAL.Models;
 
 namespace CSharpTodoList.DAL.Repositories
 {
@@ -13,46 +11,5 @@ namespace CSharpTodoList.DAL.Repositories
         void Delete(int id);
         void Update(T item);
     }
-
-
-    public class ProjectRepository : IRepository<ProjectModel>
-    {
-        private FileContext _projectContext; 
-        public ProjectRepository()
-        {
-            this._projectContext = new FileContext();
-        }
-        public void Create(ProjectModel item)
-        {
-            _projectContext.Open();
-            _projectContext.Add(_projectContext.ConvertToString(item));
-        }
-
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
-        public ProjectModel GetItem(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<ProjectModel> GetItemList()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(ProjectModel item)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-
-}*/
+}
+    

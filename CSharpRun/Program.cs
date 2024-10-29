@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.ComponentModel;
 using System.Collections.Frozen;
-using CSharpTodoList.BAL;
+using CSharpTodoList.DAL.UnitOfWork;
 
 namespace csharptodolist
 {
@@ -13,12 +13,8 @@ namespace csharptodolist
     {
         static void Main(string[] args)
         {
-            OperatorService os = new OperatorService();
-            os.CreateProject(string.Join('\n', args));
-            os.GetProject(3);
-            os.GetProjects();
-            os.DeleteProject(3);  
-            os.GetProjects();
+            UnitOfWork p = new UnitOfWork();
+            Console.WriteLine(p.ProjectRepository._content);
         }         
 
     }

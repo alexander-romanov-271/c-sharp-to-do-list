@@ -1,4 +1,5 @@
 using System;
+using System.Net.Mime;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using CSharpTodoList.DAL.Models;
@@ -6,11 +7,10 @@ using Utils;
 
 namespace CSharpTodoList.DAL.Repositories;
 
-public class ProjectRepository : IRepository<ProjectModel>
-{
-    
-    private List<string> _content;
-    public ProjectRepository(List<string> content)
+public class ProjectRepository(string content)
+ { 
+    private string _content = content;
+    /*public ProjectRepository(List<string> content)
     {
         _content = content;
     }
@@ -53,5 +53,5 @@ public class ProjectRepository : IRepository<ProjectModel>
     public void Update(ProjectModel item)
     {
         throw new NotImplementedException();
-    }
+    }*/
 }

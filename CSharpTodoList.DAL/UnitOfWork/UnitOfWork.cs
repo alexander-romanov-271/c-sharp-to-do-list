@@ -7,34 +7,19 @@ using System.Xml.Linq;
 using CSharpTodoList.DAL.Models;
 using Microsoft.VisualBasic;
 using CSharpTodoList.DAL.Repositories;
+using CSharpTodoList.DAL.Contexts;
 
 namespace CSharpTodoList.DAL.UnitOfWork;
 
 public class UnitOfWork
 {
-    private string _path;
-    private List<string> _content;
+    private readonly string fileContext = FileContext.ProjectListFile;
     private ProjectRepository projectRepository
     {
         get
         {
-            return projectRepository ?? new ProjectRepository(_content);
+            return projectRepository ?? new ProjectRepository(fileContext);
         }
-    }
-
-    public UnitOfWork(string? path)
-    {
-        _path = path ?? Directory.GetCurrentDirectory() + "/projectslist.txt";
-        _content = File.ReadAllLines(_path).ToList();
-    }
-
-    public void Save()
-    {
-        File.AppendAllLines(_path, _content);
-    }
-
-    public void Dispose()
-    {
     }
 }
 

@@ -9,7 +9,7 @@ namespace CSharpTodoList.DAL.Repositories;
 
 public class ProjectRepository(string content)
  { 
-    private string _content = content;
+    public string _content = content;
     /*public ProjectRepository(List<string> content)
     {
         _content = content;

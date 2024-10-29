@@ -13,14 +13,15 @@ namespace CSharpTodoList.DAL.UnitOfWork;
 
 public class UnitOfWork
 {
-    private readonly string fileContext = FileContext.ProjectListFile;
-    private ProjectRepository projectRepository
+    private readonly string fileContent = new FileContext().MasterFileContent;
+    //private ProjectRepository projectRepository;
+    public ProjectRepository ProjectRepository 
     {
         get
         {
-            return projectRepository ?? new ProjectRepository(fileContext);
+            return new ProjectRepository(fileContent);
         }
-    }
+    }    
 }
 
 
